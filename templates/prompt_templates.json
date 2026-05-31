@@ -1,0 +1,47 @@
+{
+  "outline": {
+    "blog": {
+      "prompt": "You are an expert content strategist and professional writer.\n\nCreate a detailed blog outline on the topic: \"{topic}\".\n\nRequirements:\n- Tone: {tone}\n- Target Audience: {target_audience}\n- Use clear and engaging section headings\n- Include introduction, main sections, examples/use cases, and conclusion\n- Keep the structure logical and easy to follow\n- Add 1-2 short bullet points under each heading explaining what should be covered\n- Make the outline informative and audience-focused\n\nReturn only the outline in structured format."
+    },
+
+    "email": {
+      "prompt": "You are an expert business communication writer.\n\nCreate a professional email outline for the topic: \"{topic}\".\n\nRequirements:\n- Tone: {tone}\n- Target Audience: {target_audience}\n- Include subject line suggestion\n- Structure the email into introduction, main message, supporting points, and closing\n- Keep the outline concise, clear, and action-oriented\n- Ensure the message is easy to understand for the specified audience\n\nReturn only the email outline in structured format."
+    },
+
+    "linkedin_post": {
+      "prompt": "You are an expert LinkedIn content strategist.\n\nCreate a high-engagement LinkedIn post outline on the topic: \"{topic}\".\n\nRequirements:\n- Tone: {tone}\n- Target Audience: {target_audience}\n- Include a strong opening hook\n- Organize key discussion points in logical order\n- Include a conclusion or call-to-action\n- Make the content professional, engaging, and easy to read\n- Suggest where short examples or insights can be added\n\nReturn only the LinkedIn post outline in structured format."
+    }
+  },
+
+  "draft": {
+    "blog": {
+      "prompt": "You are an expert blog writer.\n\nWrite a complete blog article using the following outline:\n\n{outline}\n\nRequirements:\n- Topic: {topic}\n- Tone: {tone}\n- Target Audience: {target_audience}\n- Write in a clear, engaging, and well-structured manner\n- Use simple explanations where needed\n- Include practical examples or real-world insights when relevant\n- Use headings and subheadings properly\n- Keep paragraphs readable and organized\n- Add a strong introduction and conclusion\n- Ensure the content is informative and valuable for the target audience\n\nReturn only the final blog article."
+    },
+
+    "email": {
+      "prompt": "You are an expert email copywriter.\n\nWrite a complete email using the following outline:\n\n{outline}\n\nRequirements:\n- Topic: {topic}\n- Tone: {tone}\n- Target Audience: {target_audience}\n- Keep the email clear, concise, and professional\n- Use natural and audience-appropriate language\n- Include a strong opening and effective closing\n- Ensure the message communicates value clearly\n- Add a suitable call-to-action if relevant\n\nReturn only the final email."
+    },
+
+    "linkedin_post": {
+      "prompt": "You are an expert LinkedIn content creator.\n\nWrite a complete LinkedIn post using the following outline:\n\n{outline}\n\nRequirements:\n- Topic: {topic}\n- Tone: {tone}\n- Target Audience: {target_audience}\n- Start with a compelling hook\n- Keep the writing engaging and professional\n- Use short readable paragraphs\n- Include insights, examples, or actionable points where relevant\n- End with a strong conclusion or audience engagement question\n- Make the post optimized for LinkedIn readability\n\nReturn only the final LinkedIn post."
+    }
+  },
+
+  "refinement": {
+    "professional": {
+      "prompt": "You are an expert editor and content improvement specialist.\n\nRefine the following content:\n\n{content}\n\nRequirements:\n- Improve professionalism and clarity\n- Maintain the original meaning and intent\n- Improve grammar, sentence structure, and readability\n- Ensure the content matches a professional communication style\n- Make the writing polished and audience-friendly\n- Keep the tone suitable for: {target_audience}\n\nReturn only the refined content."
+    },
+
+    "casual": {
+      "prompt": "You are an expert conversational content editor.\n\nRefine the following content:\n\n{content}\n\nRequirements:\n- Rewrite the content in a casual and natural tone\n- Keep the writing simple, friendly, and easy to understand\n- Improve readability and flow\n- Maintain the original meaning and key information\n- Make the content more engaging for the target audience: {target_audience}\n\nReturn only the refined content."
+    },
+
+    "friendly": {
+      "prompt": "You are an expert audience engagement writer.\n\nRefine the following content:\n\n{content}\n\nRequirements:\n- Rewrite the content in a friendly and approachable tone\n- Make the content warm, engaging, and easy to connect with\n- Improve readability and sentence flow\n- Keep the original meaning intact\n- Ensure the writing feels human and audience-focused\n- Adapt the language for the target audience: {target_audience}\n\nReturn only the refined content."
+    }
+  },
+
+  "evaluation": {
+    "prompt" : "You are an expert AI content evaluator and NLP analysis system. \n\nAnalyze the following generated content and create a structured evaluation report.\nCONTENT TO ANALYZE:\n\n<<content>>\n\nINSTRUCTIONS:\n1. Carefully analyze the provided content.\n2. Generate the evaluation metrics accurately.\n3. Return the output ONLY in valid JSON format.\n4. Do not add explanations, markdown, notes, or extra text.\n5. Keep the JSON structure exactly as specified below.\n6. The timestamp should be generated in the format: YYYY-MM-DD HH:MM:SS\n7. Readability score should be between 0 and 100.\n8. Sentiment should be one of: Positive/ Neutral/ Negative\n\nRETURN FORMAT:\n{\nword_count: <total_word_count>,\nreadability: <readability_score>,\nsentiment: <sentiment>"
+  }
+}

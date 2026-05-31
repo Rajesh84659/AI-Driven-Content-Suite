@@ -1,0 +1,11 @@
+{
+    "id": "OUTLINE_PROMPT_20260530_001",
+    "action": "outline",
+    "content_type": "email",
+    "topic": "AI in Healthcare",
+    "tone": "professional",
+    "target_audience": "beginners",
+    "prompt_version": "v001",
+    "prompt": "You are an expert business communication writer.\n\nCreate a professional email outline for the topic: \"AI in Healthcare\".\n\nRequirements:\n- Tone: professional\n- Target Audience: beginners\n- Include subject line suggestion\n- Structure the email into introduction, main message, supporting points, and closing\n- Keep the outline concise, clear, and action-oriented\n- Ensure the message is easy to understand for the specified audience\n\nReturn only the email outline in structured format.",
+    "timestamp": "30-05-2026 17:54:44"
+}
